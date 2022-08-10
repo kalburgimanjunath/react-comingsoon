@@ -15,9 +15,11 @@ body {
 }
 .app .rightpart {
   width: 50%;
-  top: 0;
-  right: 0;
-  position: absolute;
+  top: 50px;
+  right: 50px;
+  position: fixed;
+  bottom: 0;
+  /* background: #fff; */
 }
 .app .images img {
   width: 100%;
@@ -26,13 +28,16 @@ body {
 .contact {
   display: 'flex';
   padding: 50px;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
 }
 .contact {
   background-color: #08bdbd;
 }
 .about h1,
 .contact h1 {
-  font-size: 6em;
+  font-size: 3rem;
   font-family: 'Inter', sans-serif;
   color: '#303030';
   margin: 0;
@@ -88,4 +93,12 @@ body {
 .contact-form .button button {
   background-color: #fff;
   color: #098484;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }

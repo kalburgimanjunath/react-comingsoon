@@ -8,11 +8,15 @@ export default function About() {
         interdum et consequat.
       </div>
       <div>{/* social icons */}</div>
-      <div>
-        <input type="text" placeholder="Email address" />
-      </div>
-      <div className="button">
-        <button type="submit">Get Notified</button>
+      <div style={{ flex: 1, paddingTop: 20 }}>
+        <input
+          type="text"
+          placeholder="Email address"
+          style={{ padding: 20, borderRadius: 10, border: '1px solid #d6d6d6' }}
+        />
+        <span className="button" style={{ marginLeft: 20 }}>
+          <button type="submit">Get Notified</button>
+        </span>
       </div>
     </div>
   );
