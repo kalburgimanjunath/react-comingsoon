@@ -2,16 +2,17 @@ import React from 'react';
 export default function About() {
   return (
     <div className="about">
-      <h1>Hello</h1>
+      <h1>Coming soon</h1>
       <div>
-        Donec eget ex magna interdum et malesuada fames ac ante magna ipsum
-        primis in faucibus. Pellentesque venenatis dolor imperdiet dolor sed
-        mattis rutrum sem diam, vitae egestas enim auctor sit amet mauris,
-        consectetur id ipsum.
+        Blandit massa enim nec dui nunc. Non pulvinar neque amet laoreet amet
+        interdum et consequat.
       </div>
       <div>{/* social icons */}</div>
+      <div>
+        <input type="text" placeholder="Email address" />
+      </div>
       <div className="button">
-        <button type="submit">Get in Touch</button>
+        <button type="submit">Get Notified</button>
       </div>
     </div>
   );

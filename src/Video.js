@@ -42,7 +42,7 @@ const items = [
   },
 ];
 
-class Images extends Component {
+class Video extends Component {
   constructor(props) {
     super(props);
     this.state = { activeIndex: 0 };
@@ -132,4 +132,4 @@ class Images extends Component {
   }
 }
 
-export default Images;
+export default Video;
